@@ -6,6 +6,9 @@ terraform {
     azurerm = {
       source = "hashicorp/azurerm"
     }
+    azapi = {
+      source = "Azure/azapi"
+    }
     google = {
       source = "hashicorp/google"
     }
@@ -24,8 +27,26 @@ terraform {
     aap = {
       source  = "ansible/aap"
     }
+    ansible = {
+      source = "ansible/ansible"
+    }
     local = {
       source = "hashicorp/local"
+    }
+    iosxe = {
+      source = "CiscoDevNet/iosxe"
+    }
+    mittwald = {
+      source = "mittwald/mittwald"
+    }
+    panos = {
+      source = "PaloAltoNetworks/panos"
+    }
+    scaleway = {
+      source = "scaleway/scaleway"
+    }
+    foxcon = {
+      source = "fox-md/foxcon"
     }
   }
 }
